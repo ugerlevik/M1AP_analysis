@@ -1,661 +1,0 @@
-Start
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) http://www.ks.uiuc.edu/Research/vmd/                         
-Info) Email questions and bug reports to vmd@ks.uiuc.edu           
-Info) Please include this reference in published work using VMD:   
-Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
-Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
-Info) -------------------------------------------------------------
-Info) Multithreading available, 56 CPUs detected.
-Info) Free system memory: 245GB (97%)
-Info) Dynamically loaded 2 plugins in directory:
-Info) /truba/home/umgerlevik/softwares/vmd/lib/plugins/LINUXAMD64/molfile
-WT
-3
-ERROR) Could not read file ../3_WT/3_production/seokWT_onlyProt.psf
-Unable to load file '../3_WT/3_production/seokWT_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../3_WT/3_production/seokWT_250ns_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../3_WT/3_production/seokWT_250ns_onlyProt_each25k.dcd
-Unable to load file '../3_WT/3_production/seokWT_250ns_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-can't read "nf": no such variable
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokWT.dat" to "../3_WT/3_production/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-file4
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-can't read "sel": no such variable
-file4
-can't read "sel": no such variable
-ERROR) No molecules loaded.
-ERROR) Could not read file ../3_WT/3_production/seokWT_onlyProt.psf
-Unable to load file '../3_WT/3_production/seokWT_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../3_WT/4_production_repeat2/seokWT_250ns_r2_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../3_WT/4_production_repeat2/seokWT_250ns_r2_onlyProt_each25k.dcd
-Unable to load file '../3_WT/4_production_repeat2/seokWT_250ns_r2_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-/usr/bin/mkdir: cannot create directory ‘../3\r_WT/4_production_repeat2/saltbridges_seokWT’: No such file or directory
-child process exited abnormally
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../3_WT/4_production_repeat2/rog_seokWT.dat": no such file or directory
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../3_WT/4_production_repeat2/SASA_seokWT.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokWT.dat" to "../3_WT/4_production_repeat2/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-can't read "num": no such variable
-couldn't open "../3_WT/4_production_repeat2/rmsd_seokWT.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-couldn't open "../3_WT/4_production_repeat2/rmsf_seokWT.dat": no such file or directory
-can't read "sel": no such variable
-can not find channel named "file4"
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) Exiting normally.
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) http://www.ks.uiuc.edu/Research/vmd/                         
-Info) Email questions and bug reports to vmd@ks.uiuc.edu           
-Info) Please include this reference in published work using VMD:   
-Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
-Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
-Info) -------------------------------------------------------------
-Info) Multithreading available, 56 CPUs detected.
-Info) Free system memory: 245GB (97%)
-Info) Dynamically loaded 2 plugins in directory:
-Info) /truba/home/umgerlevik/softwares/vmd/lib/plugins/LINUXAMD64/molfile
-P389L
-4
-ERROR) Could not read file ../4_P389L/3_production/seokP389L_onlyProt.psf
-Unable to load file '../4_P389L/3_production/seokP389L_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../4_P389L/3_production/seokP389L_250ns_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../4_P389L/3_production/seokP389L_250ns_onlyProt_each25k.dcd
-Unable to load file '../4_P389L/3_production/seokP389L_250ns_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-can't read "nf": no such variable
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokP389L.dat" to "../4_P389L/3_production/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-file4
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-can't read "sel": no such variable
-file4
-can't read "sel": no such variable
-ERROR) No molecules loaded.
-ERROR) Could not read file ../4_P389L/3_production/seokP389L_onlyProt.psf
-Unable to load file '../4_P389L/3_production/seokP389L_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../4_P389L/4_production_repeat2/seokP389L_250ns_r2_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../4_P389L/4_production_repeat2/seokP389L_250ns_r2_onlyProt_each25k.dcd
-Unable to load file '../4_P389L/4_production_repeat2/seokP389L_250ns_r2_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-/usr/bin/mkdir: cannot create directory ‘../4\r_P389L/4_production_repeat2/saltbridges_seokP389L’: No such file or directory
-child process exited abnormally
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../4_P389L/4_production_repeat2/rog_seokP389L.dat": no such file or directory
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../4_P389L/4_production_repeat2/SASA_seokP389L.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokP389L.dat" to "../4_P389L/4_production_repeat2/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-can't read "num": no such variable
-couldn't open "../4_P389L/4_production_repeat2/rmsd_seokP389L.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-couldn't open "../4_P389L/4_production_repeat2/rmsf_seokP389L.dat": no such file or directory
-can't read "sel": no such variable
-can not find channel named "file4"
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) Exiting normally.
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) http://www.ks.uiuc.edu/Research/vmd/                         
-Info) Email questions and bug reports to vmd@ks.uiuc.edu           
-Info) Please include this reference in published work using VMD:   
-Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
-Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
-Info) -------------------------------------------------------------
-Info) Multithreading available, 56 CPUs detected.
-Info) Free system memory: 245GB (97%)
-Info) Dynamically loaded 2 plugins in directory:
-Info) /truba/home/umgerlevik/softwares/vmd/lib/plugins/LINUXAMD64/molfile
-G317R
-5
-ERROR) Could not read file ../5_G317R/3_production/seokG317R_onlyProt.psf
-Unable to load file '../5_G317R/3_production/seokG317R_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../5_G317R/3_production/seokG317R_250ns_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../5_G317R/3_production/seokG317R_250ns_onlyProt_each25k.dcd
-Unable to load file '../5_G317R/3_production/seokG317R_250ns_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-can't read "nf": no such variable
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokG317R.dat" to "../5_G317R/3_production/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-file4
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-can't read "sel": no such variable
-file4
-can't read "sel": no such variable
-ERROR) No molecules loaded.
-ERROR) Could not read file ../5_G317R/3_production/seokG317R_onlyProt.psf
-Unable to load file '../5_G317R/3_production/seokG317R_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../5_G317R/4_production_repeat2/seokG317R_250ns_r2_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../5_G317R/4_production_repeat2/seokG317R_250ns_r2_onlyProt_each25k.dcd
-Unable to load file '../5_G317R/4_production_repeat2/seokG317R_250ns_r2_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-/usr/bin/mkdir: cannot create directory ‘../5\r_G317R/4_production_repeat2/saltbridges_seokG317R’: No such file or directory
-child process exited abnormally
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../5_G317R/4_production_repeat2/rog_seokG317R.dat": no such file or directory
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../5_G317R/4_production_repeat2/SASA_seokG317R.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokG317R.dat" to "../5_G317R/4_production_repeat2/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-can't read "num": no such variable
-couldn't open "../5_G317R/4_production_repeat2/rmsd_seokG317R.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-couldn't open "../5_G317R/4_production_repeat2/rmsf_seokG317R.dat": no such file or directory
-can't read "sel": no such variable
-can not find channel named "file4"
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) Exiting normally.
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) http://www.ks.uiuc.edu/Research/vmd/                         
-Info) Email questions and bug reports to vmd@ks.uiuc.edu           
-Info) Please include this reference in published work using VMD:   
-Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
-Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
-Info) -------------------------------------------------------------
-Info) Multithreading available, 56 CPUs detected.
-Info) Free system memory: 245GB (97%)
-Info) Dynamically loaded 2 plugins in directory:
-Info) /truba/home/umgerlevik/softwares/vmd/lib/plugins/LINUXAMD64/molfile
-L430P
-6
-ERROR) Could not read file ../6_L430P/3_production/seokL430P_onlyProt.psf
-Unable to load file '../6_L430P/3_production/seokL430P_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../6_L430P/3_production/seokL430P_250ns_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../6_L430P/3_production/seokL430P_250ns_onlyProt_each25k.dcd
-Unable to load file '../6_L430P/3_production/seokL430P_250ns_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-can't read "nf": no such variable
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokL430P.dat" to "../6_L430P/3_production/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-file4
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-can't read "sel": no such variable
-file4
-can't read "sel": no such variable
-ERROR) No molecules loaded.
-ERROR) Could not read file ../6_L430P/3_production/seokL430P_onlyProt.psf
-Unable to load file '../6_L430P/3_production/seokL430P_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../6_L430P/4_production_repeat2/seokL430P_250ns_r2_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../6_L430P/4_production_repeat2/seokL430P_250ns_r2_onlyProt_each25k.dcd
-Unable to load file '../6_L430P/4_production_repeat2/seokL430P_250ns_r2_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-/usr/bin/mkdir: cannot create directory ‘../6\r_L430P/4_production_repeat2/saltbridges_seokL430P’: No such file or directory
-child process exited abnormally
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../6_L430P/4_production_repeat2/rog_seokL430P.dat": no such file or directory
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../6_L430P/4_production_repeat2/SASA_seokL430P.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokL430P.dat" to "../6_L430P/4_production_repeat2/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-can't read "num": no such variable
-couldn't open "../6_L430P/4_production_repeat2/rmsd_seokL430P.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-couldn't open "../6_L430P/4_production_repeat2/rmsf_seokL430P.dat": no such file or directory
-can't read "sel": no such variable
-can not find channel named "file4"
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) Exiting normally.
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) http://www.ks.uiuc.edu/Research/vmd/                         
-Info) Email questions and bug reports to vmd@ks.uiuc.edu           
-Info) Please include this reference in published work using VMD:   
-Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
-Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
-Info) -------------------------------------------------------------
-Info) Multithreading available, 56 CPUs detected.
-Info) Free system memory: 245GB (97%)
-Info) Dynamically loaded 2 plugins in directory:
-Info) /truba/home/umgerlevik/softwares/vmd/lib/plugins/LINUXAMD64/molfile
-S50P
-7
-ERROR) Could not read file ../7_S50P/3_production/seokS50P_onlyProt.psf
-Unable to load file '../7_S50P/3_production/seokS50P_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../7_S50P/3_production/seokS50P_250ns_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../7_S50P/3_production/seokS50P_250ns_onlyProt_each25k.dcd
-Unable to load file '../7_S50P/3_production/seokS50P_250ns_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-can't read "nf": no such variable
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokS50P.dat" to "../7_S50P/3_production/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-file4
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-can't read "sel": no such variable
-file4
-can't read "sel": no such variable
-ERROR) No molecules loaded.
-ERROR) Could not read file ../7_S50P/3_production/seokS50P_onlyProt.psf
-Unable to load file '../7_S50P/3_production/seokS50P_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../7_S50P/4_production_repeat2/seokS50P_250ns_r2_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../7_S50P/4_production_repeat2/seokS50P_250ns_r2_onlyProt_each25k.dcd
-Unable to load file '../7_S50P/4_production_repeat2/seokS50P_250ns_r2_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-/usr/bin/mkdir: cannot create directory ‘../7\r_S50P/4_production_repeat2/saltbridges_seokS50P’: No such file or directory
-child process exited abnormally
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../7_S50P/4_production_repeat2/rog_seokS50P.dat": no such file or directory
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../7_S50P/4_production_repeat2/SASA_seokS50P.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokS50P.dat" to "../7_S50P/4_production_repeat2/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-can't read "num": no such variable
-couldn't open "../7_S50P/4_production_repeat2/rmsd_seokS50P.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-couldn't open "../7_S50P/4_production_repeat2/rmsf_seokS50P.dat": no such file or directory
-can't read "sel": no such variable
-can not find channel named "file4"
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) Exiting normally.
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) http://www.ks.uiuc.edu/Research/vmd/                         
-Info) Email questions and bug reports to vmd@ks.uiuc.edu           
-Info) Please include this reference in published work using VMD:   
-Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
-Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
-Info) -------------------------------------------------------------
-Info) Multithreading available, 56 CPUs detected.
-Info) Free system memory: 245GB (97%)
-Info) Dynamically loaded 2 plugins in directory:
-Info) /truba/home/umgerlevik/softwares/vmd/lib/plugins/LINUXAMD64/molfile
-R266Q
-8
-ERROR) Could not read file ../8_R266Q/3_production/seokR266Q_onlyProt.psf
-Unable to load file '../8_R266Q/3_production/seokR266Q_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../8_R266Q/3_production/seokR266Q_250ns_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../8_R266Q/3_production/seokR266Q_250ns_onlyProt_each25k.dcd
-Unable to load file '../8_R266Q/3_production/seokR266Q_250ns_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-file4
-can't read "nf": no such variable
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokR266Q.dat" to "../8_R266Q/3_production/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-file4
-can't read "nf": no such variable
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-can't read "sel": no such variable
-file4
-can't read "sel": no such variable
-ERROR) No molecules loaded.
-ERROR) Could not read file ../8_R266Q/3_production/seokR266Q_onlyProt.psf
-Unable to load file '../8_R266Q/3_production/seokR266Q_onlyProt.psf' using file type 'psf'.
-dcdplugin) Could not access file '../8_R266Q/4_production_repeat2/seokR266Q_250ns_r2_onlyProt_each25k.dcd'.
-ERROR) Could not read file ../8_R266Q/4_production_repeat2/seokR266Q_250ns_r2_onlyProt_each25k.dcd
-Unable to load file '../8_R266Q/4_production_repeat2/seokR266Q_250ns_r2_onlyProt_each25k.dcd' using file type 'dcd'.
-2.8
-molinfo: get: no molecule exists with id -1
-1.2
-There is no 'top' molecule  in atomselect's 'molId'
-1.1
-/usr/bin/mkdir: cannot create directory ‘../8\r_R266Q/4_production_repeat2/saltbridges_seokR266Q’: No such file or directory
-child process exited abnormally
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../8_R266Q/4_production_repeat2/rog_seokR266Q.dat": no such file or directory
-molinfo: get: no molecule exists with id -1
-0
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-couldn't open "../8_R266Q/4_production_repeat2/SASA_seokR266Q.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-can't read "nf": no such variable
--1
-atomselect: bad frame number in input, must be 'first', 'last', 'now', or a non-negative number
-couldn't open "-1.pdb": no such file or directory
-file4
-can't read "fd": no such variable
-can't read "fd": no such variable
-bad option "-1.pdb.tmp": should be -force or --
-couldn't execute "foldx": no such file or directory
-file4
-0
-can't read "nf": no such variable
--1
-gawk: fatal: cannot open file `-1_0_ST.fxout' for reading (No such file or directory)
-error renaming "stability_seokR266Q.dat" to "../8_R266Q/4_production_repeat2/.": no such file or directory
-There is no 'top' molecule  in atomselect's 'molId'
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "nf": no such variable
-can't read "num": no such variable
-couldn't open "../8_R266Q/4_production_repeat2/rmsd_seokR266Q.dat": no such file or directory
-can't read "nf": no such variable
-can not find channel named "file4"
-There is no 'top' molecule  in atomselect's 'molId'
-can't read "sel": no such variable
-couldn't open "../8_R266Q/4_production_repeat2/rmsf_seokR266Q.dat": no such file or directory
-can't read "sel": no such variable
-can not find channel named "file4"
-Info) VMD for LINUXAMD64, version 1.9.3 (December 1, 2016)
-Info) Exiting normally.
