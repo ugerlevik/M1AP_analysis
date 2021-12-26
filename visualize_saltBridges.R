@@ -1,7 +1,7 @@
 #########################################################################
 ## Project: M1AP                                 
 ## Script purpose: Visualize salt bridges
-## Date: November 3, 2020                                                   
+## Date: Dec 25, 2021                                                  
 ## Author: Umut Gerlevik                                                 
 #########################################################################
 library(ggplot2)
@@ -46,14 +46,14 @@ for (i in 1:5) {
       wt <- read.table(paste("3_WT/3_production/saltbridges_seokWT/", j, sep = ""), sep = " ")
       mut <- read.table(paste0(paste0(subgroup[i],"_",mutList[i],"/3_production/saltbridges_seok",mutList[i],"/"), j), sep = " ")
       wt_mut <- cbind(wt, mut[2])
-      wt_mut[1] <- seq(0, 249.99, 0.05)
+      wt_mut[1] <- seq(0, 499.99, 0.1)
       colnames(wt_mut) <- c("Time", "Wild-type", mutationlist[i])
       wt_mut <- melt(wt_mut[1:3], id.var = "Time")
       p <- ggplot(wt_mut, aes(x = Time, y = value, colour = variable))
       p <- p + geom_point(size = 1)
       p <- p + geom_line(size = 0.8)
-      p <- p + scale_x_continuous(breaks = seq(0, 250, 25))
-      p <- p + scale_y_continuous(breaks = seq(0, 300, 2))
+      p <- p + scale_x_continuous(breaks = seq(0, 500, 50))
+      p <- p + scale_y_continuous(breaks = seq(0, 300, 2), limits = c(0, 36))
       p <- p + labs(x = "Time (ns)", y = paste(sub("saltbr-", "", sub(".dat", "", j)), "(Å)", sep = " "))
       p <- p + ggsci::scale_color_jama()
       p <- p + theme_minimal()
@@ -76,13 +76,13 @@ for (i in 1:5) {
                !(j %in% dir(paste0(subgroup[i],"_",mutList[i],"/3_production/saltbridges_seok",mutList[i],"/")))) {
       
       wt <- read.table(paste0("3_WT/3_production/saltbridges_seokWT/", j), sep = " ")
-      wt[1] <- seq(0, 249.99, 0.05)
+      wt[1] <- seq(0, 499.99, 0.1)
       colnames(wt) <- c("Time", "saltbr")
       p <- ggplot(wt, aes(x = Time, y = saltbr))
       p <- p + geom_point(size = 1)
       p <- p + geom_line(size = 0.8)
-      p <- p + scale_x_continuous(breaks = seq(0, 250, 25))
-      p <- p + scale_y_continuous(breaks = seq(0, 300, 2))
+      p <- p + scale_x_continuous(breaks = seq(0, 500, 50))
+      p <- p + scale_y_continuous(breaks = seq(0, 300, 2), limits = c(0, 36))
       p <- p + labs(x = "Time (ns)", y = paste(sub("saltbr-", "", sub(".dat", "", j)), "(Å)", sep = " "))
       p <- p + ggsci::scale_color_jama()
       p <- p + theme_minimal()
@@ -105,13 +105,13 @@ for (i in 1:5) {
                j %in% dir(paste0(subgroup[i],"_",mutList[i],"/3_production/saltbridges_seok",mutList[i],"/"))) {
       
       mut <- read.table(paste0(paste0(subgroup[i],"_",mutList[i],"/3_production/saltbridges_seok",mutList[i],"/"), j), sep = " ")
-      mut[1] <- seq(0, 249.99, 0.05)
+      mut[1] <- seq(0, 499.99, 0.1)
       colnames(mut) <- c("Time", "saltbr")
       p <- ggplot(mut, aes(x = Time, y = saltbr))
       p <- p + geom_point(size = 1)
       p <- p + geom_line(size = 0.8)
-      p <- p + scale_x_continuous(breaks = seq(0, 250, 25))
-      p <- p + scale_y_continuous(breaks = seq(0, 300, 2))
+      p <- p + scale_x_continuous(breaks = seq(0, 500, 50))
+      p <- p + scale_y_continuous(breaks = seq(0, 300, 2), limits = c(0, 36))
       p <- p + labs(x = "Time (ns)", y = paste(sub("saltbr-", "", sub(".dat", "", j)), "(Å)", sep = " "))
       p <- p + ggsci::scale_color_jama()
       p <- p + theme_minimal()

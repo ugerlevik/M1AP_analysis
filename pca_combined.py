@@ -5,14 +5,14 @@ from matplotlib.pylab import *
 import matplotlib.pyplot as plt
 
 case, num  = sys.argv[1:]
-
+# DO THIS FOR THE LAST 75 ns!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11
 str1 = parsePDB("../3_WT/3_production/seokWT_onlyProt.pdb")
-ens1 = Trajectory("../3_WT/3_production/seokWT_250ns_onlyProt_each25k.dcd")
-ens1.addFile("../3_WT/4_production_repeat2/seokWT_250ns_r2_onlyProt_each25k.dcd")
+ens1 = Trajectory("../3_WT/3_production/seokWT_last75nsOf500ns_onlyProt_each25k.dcd")
+ens1.addFile("../3_WT/4_production_repeat2/seokWT_last75nsOf500ns_r2_onlyProt_each25k.dcd")
 
 str2 = parsePDB("../"+num+"_"+case+"/3_production/"+"seok"+case+"_onlyProt.pdb")
-ens2 = Trajectory("../"+num+"_"+case+"/3_production/"+"seok"+case+"_250ns_onlyProt_each25k.dcd")
-ens2.addFile("../"+num+"_"+case+"/4_production_repeat2/"+"seok"+case+"_250ns_r2_onlyProt_each25k.dcd")
+ens2 = Trajectory("../"+num+"_"+case+"/3_production/"+"seok"+case+"_last75nsOf500ns_onlyProt_each25k.dcd")
+ens2.addFile("../"+num+"_"+case+"/4_production_repeat2/"+"seok"+case+"_last75nsOf500ns_r2_onlyProt_each25k.dcd")
 
 ens1.link(str1)
 ens1.setCoords(str1)

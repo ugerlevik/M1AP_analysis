@@ -22,7 +22,7 @@ for f in files:
 	gnm.buildKirchhoff(calphas)
 	gnm.calcModes(1)
 	
-	slowest_hinges = gnm[0].getHinges()
+	slowest_hinges = calcHinges(gnm[0])
 	
 	hinges = {'Resname': calphas[slowest_hinges].getResnames(),
 			'Resid': calphas[slowest_hinges].getResnums()}

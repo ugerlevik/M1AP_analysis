@@ -1,7 +1,7 @@
 #########################################################################
 ## Project: M1AP                                 
 ## Script purpose: Secondary Structure Analysis
-## Date: Dec 19, 2020                                                   
+## Date: Dec 23, 2021                                                  
 ## Author: Umut Gerlevik                                                 
 #########################################################################
 
@@ -268,51 +268,52 @@ ssa_plot <- function(ssa1, ssa2,
   fig <- ggarrange(p8, p1, p2, p3, p4, p5, p6, p7, ncol = 1,
                    heights = c(1, rep(5, 7)))
   
-  return(annotate_figure(fig, bottom = text_grob("Residue Index", face = "bold", size = 18)))
+  return(annotate_figure(fig))#, bottom = text_grob("Residue Index", face = "bold", size = 18)))
 }
 
 
 # Calculate Secondary Structures --------------
 # pdb_WT <- read.pdb("3_WT/3_production/seokWT_onlyProt.pdb")
-# dcd_WT_r1 <- read.dcd(trjfile = "3_WT/3_production/seokWT_250ns_onlyProt_each25k.dcd")
-# dcd_WT_r2 <- read.dcd(trjfile = "3_WT/4_production_repeat2/seokWT_250ns_r2_onlyProt_each25k.dcd")
-# ssa_WT <- ssa(pdb_WT, rbind(dcd_WT_r1, dcd_WT_r2))
+# dcd_WT_r1 <- read.dcd(trjfile = "3_WT/3_production/seokWT_last75nsOf500ns_onlyProt_each25k.dcd")
+# dcd_WT_r2 <- read.dcd(trjfile = "3_WT/4_production_repeat2/seokWT_last75nsOf500ns_r2_onlyProt_each25k.dcd")
+# ssa_WT <- ssa(pdb_WT, 
+#               rbind(dcd_WT_r1[seq(1, nrow(dcd_WT_r1), 2),],dcd_WT_r2[seq(1, nrow(dcd_WT_r2), 2),]))
 # saveRDS(ssa_WT, "_outputs/ssa/ssa_WT.RDS")
-# rm(pdb_WT, dcd_WT_r1[seq(1, nrow(dcd_WT_r1), 2),], dcd_WT_r2[seq(1, nrow(dcd_WT_r2), 2),])
+# rm(pdb_WT, dcd_WT_r1, dcd_WT_r2)
 
 # pdb_S50P <- read.pdb("7_S50P/3_production/seokS50P_onlyProt.pdb")
-# dcd_S50P_r1 <- read.dcd(trjfile = "7_S50P/3_production/seokS50P_250ns_onlyProt_each25k.dcd")
-# dcd_S50P_r2 <- read.dcd(trjfile = "7_S50P/4_production_repeat2/seokS50P_250ns_r2_onlyProt_each25k.dcd")
+# dcd_S50P_r1 <- read.dcd(trjfile = "7_S50P/3_production/seokS50P_last75nsOf500ns_onlyProt_each25k.dcd")
+# dcd_S50P_r2 <- read.dcd(trjfile = "7_S50P/4_production_repeat2/seokS50P_last75nsOf500ns_r2_onlyProt_each25k.dcd")
 # ssa_S50P <- ssa(pdb_S50P,
 #                 rbind(dcd_S50P_r1[seq(1, nrow(dcd_S50P_r1), 2),],dcd_S50P_r2[seq(1, nrow(dcd_S50P_r2), 2),]))
 # saveRDS(ssa_S50P, "_outputs/ssa/ssa_S50P.RDS")
 # rm(pdb_S50P, dcd_S50P_r1, dcd_S50P_r2)
 
 # pdb_R266Q <- read.pdb("8_R266Q/3_production/seokR266Q_onlyProt.pdb")
-# dcd_R266Q_r1 <- read.dcd(trjfile = "8_R266Q/3_production/seokR266Q_250ns_onlyProt_each25k.dcd")
-# dcd_R266Q_r2 <- read.dcd(trjfile = "8_R266Q/4_production_repeat2/seokR266Q_250ns_r2_onlyProt_each25k.dcd")
+# dcd_R266Q_r1 <- read.dcd(trjfile = "8_R266Q/3_production/seokR266Q_last75nsOf500ns_onlyProt_each25k.dcd")
+# dcd_R266Q_r2 <- read.dcd(trjfile = "8_R266Q/4_production_repeat2/seokR266Q_last75nsOf500ns_r2_onlyProt_each25k.dcd")
 # ssa_R266Q <- ssa(pdb_R266Q,
 #                  rbind(dcd_R266Q_r1[seq(1, nrow(dcd_R266Q_r1), 2),], dcd_R266Q_r2[seq(1, nrow(dcd_R266Q_r2), 2),]))
 # saveRDS(ssa_R266Q, "_outputs/ssa/ssa_R266Q.RDS")
 # rm(pdb_R266Q, dcd_R266Q_r1, dcd_R266Q_r2)
 
 # pdb_G317R <- read.pdb("5_G317R/3_production/seokG317R_onlyProt.pdb")
-# dcd_G317R_r1 <- read.dcd(trjfile = "5_G317R/3_production/seokG317R_250ns_onlyProt_each25k.dcd")
-# dcd_G317R_r2 <- read.dcd(trjfile = "5_G317R/4_production_repeat2/seokG317R_250ns_r2_onlyProt_each25k.dcd")
+# dcd_G317R_r1 <- read.dcd(trjfile = "5_G317R/3_production/seokG317R_last75nsOf500ns_onlyProt_each25k.dcd")
+# dcd_G317R_r2 <- read.dcd(trjfile = "5_G317R/4_production_repeat2/seokG317R_last75nsOf500ns_r2_onlyProt_each25k.dcd")
 # ssa_G317R <- ssa(pdb_G317R, rbind(dcd_G317R_r1[seq(1, nrow(dcd_G317R_r1), 2),], dcd_G317R_r2[seq(1, nrow(dcd_G317R_r2), 2),]))
 # saveRDS(ssa_G317R, "_outputs/ssa/ssa_G317R.RDS")
 # rm(pdb_G317R, dcd_G317R_r1, dcd_G317R_r2)
 
 # pdb_P389L <- read.pdb("4_P389L/3_production/seokP389L_onlyProt.pdb")
-# dcd_P389L_r1 <- read.dcd(trjfile = "4_P389L/3_production/seokP389L_250ns_onlyProt_each25k.dcd")
-# dcd_P389L_r2 <- read.dcd(trjfile = "4_P389L/4_production_repeat2/seokP389L_250ns_r2_onlyProt_each25k.dcd")
+# dcd_P389L_r1 <- read.dcd(trjfile = "4_P389L/3_production/seokP389L_last75nsOf500ns_onlyProt_each25k.dcd")
+# dcd_P389L_r2 <- read.dcd(trjfile = "4_P389L/4_production_repeat2/seokP389L_last75nsOf500ns_r2_onlyProt_each25k.dcd")
 # ssa_P389L <- ssa(pdb_P389L, rbind(dcd_P389L_r1[seq(1, nrow(dcd_P389L_r1), 2),], dcd_P389L_r2[seq(1, nrow(dcd_P389L_r2), 2),]))
 # saveRDS(ssa_P389L, "_outputs/ssa/ssa_P389L.RDS")
 # rm(pdb_P389L, dcd_P389L_r1, dcd_P389L_r2)
 
 # pdb_L430P <- read.pdb("6_L430P/3_production/seokL430P_onlyProt.pdb")
-# dcd_L430P_r1 <- read.dcd(trjfile = "6_L430P/3_production/seokL430P_250ns_onlyProt_each25k.dcd")
-# dcd_L430P_r2 <- read.dcd(trjfile = "6_L430P/4_production_repeat2/seokL430P_250ns_r2_onlyProt_each25k.dcd")
+# dcd_L430P_r1 <- read.dcd(trjfile = "6_L430P/3_production/seokL430P_last75nsOf500ns_onlyProt_each25k.dcd")
+# dcd_L430P_r2 <- read.dcd(trjfile = "6_L430P/4_production_repeat2/seokL430P_last75nsOf500ns_r2_onlyProt_each25k.dcd")
 # ssa_L430P <- ssa(pdb_L430P, rbind(dcd_L430P_r1[seq(1, nrow(dcd_L430P_r1), 2),], dcd_L430P_r2[seq(1, nrow(dcd_L430P_r2), 2),]))
 # saveRDS(ssa_L430P, "_outputs/ssa/ssa_L430P.RDS")
 # rm(pdb_L430P, dcd_L430P_r1, dcd_L430P_r2)
@@ -345,16 +346,21 @@ p_focused_R266Q <- ssa_plot(ssa_WT, ssa_R266Q, name2 = mutationlist[2], color_nu
 p_focused_G317R <- ssa_plot(ssa_WT, ssa_G317R, name2 = mutationlist[3], color_number2 = 4, resid1 = 312, resid2 = 322)
 p_focused_P389L <- ssa_plot(ssa_WT, ssa_P389L, name2 = mutationlist[4], color_number2 = 5, resid1 = 384, resid2 = 394)
 p_focused_L430P <- ssa_plot(ssa_WT, ssa_L430P, name2 = mutationlist[5], color_number2 = 6, resid1 = 425, resid2 = 435)
-empty <- ggplot() + theme_void()
+# empty <- ggplot() + theme_void()
 
-fig <- ggarrange(ggarrange(p_focused_S50P, p_focused_R266Q, p_focused_G317R,
-                           ncol = 3, nrow = 1, align = "h", widths = c(1, 1, 1),
-                           labels = c("A", "B", "C"), font.label = list(size = 28, face = "bold")),
-                 ggarrange(empty, p_focused_P389L, p_focused_L430P, empty,
-                           ncol = 4, nrow = 1, align = "h", widths = c(.5, 1, 1, .5),
-                           labels = c("", "D", "E", ""), font.label = list(size = 28, face = "bold")),
-                 nrow = 2, ncol = 1, widths = c(1.5, 1))
+# fig <- ggarrange(ggarrange(p_focused_S50P, p_focused_R266Q, p_focused_G317R,
+#                            ncol = 3, nrow = 1, align = "h", widths = c(1, 1, 1),
+#                            labels = c("A", "B", "C"), font.label = list(size = 28, face = "bold")),
+#                  ggarrange(empty, p_focused_P389L, p_focused_L430P, empty,
+#                            ncol = 4, nrow = 1, align = "h", widths = c(.5, 1, 1, .5),
+#                            labels = c("", "D", "E", ""), font.label = list(size = 28, face = "bold")),
+#                  nrow = 2, ncol = 1, widths = c(1.5, 1))
+fig <- ggarrange(p_focused_S50P, p_focused_R266Q, p_focused_G317R, p_focused_P389L, p_focused_L430P,
+                 ncol = 5, nrow = 1, align = "h", widths = c(1, 1, 1, 1, 1),
+                 # labels = c("A", "B", "C", "D", "E"),
+                 font.label = list(size = 28, face = "bold")
+                 )
 
-pdf("_outputs/secondaryStructure_focused.pdf", width = 20, height = 45)
-fig
+pdf("_outputs/secondaryStructure_focused.pdf", width = 20, height = 42)
+annotate_figure(fig, bottom = text_grob("Residue Index", face = "bold", size = 24))
 dev.off()
